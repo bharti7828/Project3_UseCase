@@ -27,9 +27,9 @@ public class  CartOverViewCtl extends BaseCtl{
 
 	
 		Map<Integer, String> map = new HashMap();
-		map.put(1, "High");
-		map.put(2, "Medium");
-		map.put(3, "Low");
+		map.put(1, "Camera");
+		map.put(2, "Loptop");
+		map.put(3, "car");
 		
 		
 		request.setAttribute("imp", map);
